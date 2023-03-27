@@ -1,3 +1,5 @@
+import { Link, Outlet } from "react-router-dom";
+
 const Welcome = () => {
   return (
     <>
@@ -6,20 +8,20 @@ const Welcome = () => {
         <nav>
           <ul>
             <li> 
-                <a href="/about">About</a> 
+                <Link to={"/about"}>About</Link> 
             </li>
             <li> 
-                <a href="/projects">Projects</a> 
+                <Link to={"/projects"}>Projects</Link> 
             </li>
             <li> 
-                <a href="/contact">Contact</a> 
+                <Link to={"/contact"}>Contact</Link> 
             </li>
           </ul>
         </nav>
       </header>
       
       <main>
-        <p>Content will go here.</p>
+        <Outlet/>
       </main>
     </>
   );
