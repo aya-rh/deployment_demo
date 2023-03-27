@@ -2,7 +2,8 @@ import './App.css';
 import Welcome from './Welcome';
 import {
   RouterProvider, 
-  createBrowserRouter
+  createBrowserRouter,
+  createHashRouter
 } from "react-router-dom";
 import About from './About';
 import Projects from './Projects';
@@ -16,7 +17,7 @@ function App() {
     return data; 
   }
 
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: <Welcome />,

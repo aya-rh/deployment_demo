@@ -12,7 +12,7 @@ add two commands under scripts:
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build",
 
-npm run deploy to publish
+npm run deploy to publish and commit to gh page
 
 a build folder gets made and its gitignored 
 
