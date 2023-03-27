@@ -16,3 +16,9 @@ npm run deploy to publish
 
 a build folder gets made and its gitignored 
 
+can work on it and commit to main repo branch, then when happy commit and push to gh-pages 
+
+
+add dependency through terminal 
+npm i react-router-dom
+gets added to dependencies automatically
